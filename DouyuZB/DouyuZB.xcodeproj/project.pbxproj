@@ -72,55 +72,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2C48A4CB1D97B07700F6EFA9 /* Classes */ = {
+		2C48A4D21D97B2E400F6EFA9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				2C48A4CF1D97B07700F6EFA9 /* Main */,
-				2C48A4CC1D97B07700F6EFA9 /* Follow */,
-				2C48A4CD1D97B07700F6EFA9 /* Home */,
-				2C48A4CE1D97B07700F6EFA9 /* Live */,
-				2C48A4D01D97B07700F6EFA9 /* Profile */,
-				2C48A4D11D97B07700F6EFA9 /* Tools */,
+				2C48A4D31D97B2E400F6EFA9 /* Follow */,
+				2C48A4D41D97B2E400F6EFA9 /* Home */,
+				2C48A4D51D97B2E400F6EFA9 /* Live */,
+				2C48A4D61D97B2E400F6EFA9 /* Main */,
+				2C48A4D71D97B2E400F6EFA9 /* Profile */,
+				2C48A4D81D97B2E400F6EFA9 /* Tools */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		2C48A4CC1D97B07700F6EFA9 /* Follow */ = {
+		2C48A4D31D97B2E400F6EFA9 /* Follow */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Follow;
 			sourceTree = "<group>";
 		};
-		2C48A4CD1D97B07700F6EFA9 /* Home */ = {
+		2C48A4D41D97B2E400F6EFA9 /* Home */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Home;
 			sourceTree = "<group>";
 		};
-		2C48A4CE1D97B07700F6EFA9 /* Live */ = {
+		2C48A4D51D97B2E400F6EFA9 /* Live */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Live;
 			sourceTree = "<group>";
 		};
-		2C48A4CF1D97B07700F6EFA9 /* Main */ = {
+		2C48A4D61D97B2E400F6EFA9 /* Main */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Main;
 			sourceTree = "<group>";
 		};
-		2C48A4D01D97B07700F6EFA9 /* Profile */ = {
+		2C48A4D71D97B2E400F6EFA9 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Profile;
 			sourceTree = "<group>";
 		};
-		2C48A4D11D97B07700F6EFA9 /* Tools */ = {
+		2C48A4D81D97B2E400F6EFA9 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -150,7 +150,7 @@
 		2C60A91F1D97A9B800F50971 /* DouyuZB */ = {
 			isa = PBXGroup;
 			children = (
-				2C48A4CB1D97B07700F6EFA9 /* Classes */,
+				2C48A4D21D97B2E400F6EFA9 /* Classes */,
 				2C60A9201D97A9B800F50971 /* AppDelegate.swift */,
 				2C60A9241D97A9B800F50971 /* Main.storyboard */,
 				2C60A9271D97A9B800F50971 /* Assets.xcassets */,
