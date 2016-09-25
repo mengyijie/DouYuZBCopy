@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2C60A9211D97A9B800F50971 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C60A9201D97A9B800F50971 /* AppDelegate.swift */; };
-		2C60A9231D97A9B800F50971 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C60A9221D97A9B800F50971 /* ViewController.swift */; };
 		2C60A9261D97A9B800F50971 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C60A9241D97A9B800F50971 /* Main.storyboard */; };
 		2C60A9281D97A9B800F50971 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C60A9271D97A9B800F50971 /* Assets.xcassets */; };
 		2C60A92B1D97A9B800F50971 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C60A9291D97A9B800F50971 /* LaunchScreen.storyboard */; };
@@ -36,7 +35,6 @@
 /* Begin PBXFileReference section */
 		2C60A91D1D97A9B800F50971 /* DouyuZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouyuZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C60A9201D97A9B800F50971 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2C60A9221D97A9B800F50971 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2C60A9251D97A9B800F50971 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C60A9271D97A9B800F50971 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C60A92A1D97A9B800F50971 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -74,6 +72,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C48A4CB1D97B07700F6EFA9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2C48A4CF1D97B07700F6EFA9 /* Main */,
+				2C48A4CC1D97B07700F6EFA9 /* Follow */,
+				2C48A4CD1D97B07700F6EFA9 /* Home */,
+				2C48A4CE1D97B07700F6EFA9 /* Live */,
+				2C48A4D01D97B07700F6EFA9 /* Profile */,
+				2C48A4D11D97B07700F6EFA9 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2C48A4CC1D97B07700F6EFA9 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		2C48A4CD1D97B07700F6EFA9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2C48A4CE1D97B07700F6EFA9 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		2C48A4CF1D97B07700F6EFA9 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2C48A4D01D97B07700F6EFA9 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		2C48A4D11D97B07700F6EFA9 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 		2C60A9141D97A9B800F50971 = {
 			isa = PBXGroup;
 			children = (
@@ -97,8 +150,8 @@
 		2C60A91F1D97A9B800F50971 /* DouyuZB */ = {
 			isa = PBXGroup;
 			children = (
+				2C48A4CB1D97B07700F6EFA9 /* Classes */,
 				2C60A9201D97A9B800F50971 /* AppDelegate.swift */,
-				2C60A9221D97A9B800F50971 /* ViewController.swift */,
 				2C60A9241D97A9B800F50971 /* Main.storyboard */,
 				2C60A9271D97A9B800F50971 /* Assets.xcassets */,
 				2C60A9291D97A9B800F50971 /* LaunchScreen.storyboard */,
@@ -256,7 +309,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C60A9231D97A9B800F50971 /* ViewController.swift in Sources */,
 				2C60A9211D97A9B800F50971 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,8 +453,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = DouyuZB/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vfou.com.DouyuZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -413,8 +466,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = DouyuZB/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vfou.com.DouyuZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -486,6 +540,7 @@
 				2C60A9471D97A9B800F50971 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C60A9481D97A9B800F50971 /* Build configuration list for PBXNativeTarget "DouyuZBTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +549,7 @@
 				2C60A94A1D97A9B800F50971 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C60A94B1D97A9B800F50971 /* Build configuration list for PBXNativeTarget "DouyuZBUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +558,7 @@
 				2C60A94D1D97A9B800F50971 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
